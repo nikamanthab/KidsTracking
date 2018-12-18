@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".AdvancedSettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Age-Range Fix"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/white"
+                    android:padding="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:text="AGE"/>
+                <TextView
+                    android:textColor="@color/white"
+                    android:padding="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:text="RANGE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="less than or equal to 2yr"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:padding="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight=".5"/>
+                <EditText
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:hint="dist in m"
+                    android:inputType="number"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/white2"
+                    android:id="@+id/range1"
+                    android:text="5"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 to 4 yrs"
+                    android:textAllCaps="true"
+                    android:padding="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_weight=".5"/>
+                <EditText
+                    android:textColor="@color/white"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:hint="dist in m"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/white2"
+                    android:id="@+id/range2"
+                    android:text="15"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 to 6 yrs"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:padding="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight=".5"/>
+                <EditText
+                    android:textColor="@color/white"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:hint="dist in m"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/white2"
+                    android:id="@+id/range3"
+                    android:text="25"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6 to 8 yrs"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:padding="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight=".5"/>
+                <EditText
+                    android:textColor="@color/white"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:hint="dist in m"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:textColorHint="@color/white2"
+                    android:id="@+id/range4"
+                    android:text="100"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8 to 10 yrs"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:padding="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight=".5"/>
+                <EditText
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white2"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:hint="dist in m"
+                    android:textStyle="italic"
+                    android:textAlignment="center"
+                    android:id="@+id/range5"
+                    android:text="150"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="100dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Save"
+                    android:textColor="@color/colorbutton"
+                    android:shadowColor="@color/colorPrimary"
+                    android:background="@color/buttonbg"
+                    android:id="@+id/save"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

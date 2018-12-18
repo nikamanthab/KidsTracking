@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kid Tracker</string>
+    <string name="title_activity_welcome_page">WelcomePage</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Age-Range fix</string>
+    <string name="slide_1_desc">To change the range distance for different age groups</string>
+    <string name="slide_2_title">Manage kids </string>
+    <string name="slide_2_desc">Add View and Delete kids</string>
+    <string name="slide_3_title">Tracking</string>
+    <string name="slide_3_desc">Get the distance of the kids and range alerts</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
